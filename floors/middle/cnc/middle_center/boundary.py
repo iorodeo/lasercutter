@@ -4,34 +4,38 @@ import sys
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
-feedrate = 50.0
-fileName = 'middle_right_in.dxf'
-stockThickness = 0.5
-drillMargin = 0.125
-
+feedrate = 150.0
+fileName = 'middle_center_in.dxf'
+depth = 0.51
 startZ = 0.0
-stopZ = -(stockThickness + drillMargin)
-safeZ = 0.3
-stepZ = 0.25
-startDwell = 0.5
+safeZ = 0.5
+maxCutDepth = 0.15
+toolDiam = 0.5 
+direction = 'ccw'
+cutterComp = 'outside'
+startDwell = 1.0
+startCond = 'minX'
 
 prog = gcode_cmd.GCodeProg()
 prog.add(gcode_cmd.GenericStart())
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.FeedRate(feedrate))
 
-param = { 
+param = {
         'fileName'    : fileName,
-        'layers'      : ['INSERT_HOLE_8-32'],
-        'dxfTypes'    : ['CIRCLE'],
+        'layers'      : ['OUTER_BOUNDARY'],
+        'depth'       : depth,
         'startZ'      : startZ,
-        'stopZ'       : stopZ,
         'safeZ'       : safeZ,
-        'stepZ'       : stepZ,
-        'startDwell'  : startDwell,
+        'toolDiam'    : toolDiam,
+        'direction'   : direction,
+        'cutterComp'  : cutterComp,
+        'maxCutDepth' : maxCutDepth,
+        'startDwell'  : startDwell, 
+        'startCond'   : startCond,
         }
-drill = cnc_dxf.DxfDrill(param)
-prog.add(drill)
+boundary = cnc_dxf.DxfBoundary(param)
+prog.add(boundary)
 
 prog.add(gcode_cmd.Space())
 prog.add(gcode_cmd.End(),comment=True)
