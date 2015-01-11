@@ -4,6 +4,8 @@ import sys
 from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
+# drill size 0.25"
+
 feedrate = 50.0
 fileName = 'middle_center_in.dxf'
 stockThickness = 0.5
