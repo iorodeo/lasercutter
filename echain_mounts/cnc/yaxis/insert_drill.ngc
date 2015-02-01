@@ -1,0 +1,81 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+F 50.0
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_INSERT_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: yaxis_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 2.02562992126
+; centerY: 0.472440944882
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X2.02562992 Y0.47244094
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X2.02562992126 Y0.472440944882 Z-0.375 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_INSERT_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: yaxis_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 2.89562992126
+; centerY: 0.472440944882
+; stepZ: 0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X2.89562992 Y0.47244094
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X2.89562992126 Y0.472440944882 Z-0.375 R0.0 Q0.05
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+M2 (End program)
