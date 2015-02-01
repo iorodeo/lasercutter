@@ -13,6 +13,7 @@ drillMargin = 0.5*drillSize
 
 startZ = 0.0
 stopZ = -(stockThickness + drillMargin)
+#stopZ = -0.1
 safeZ = 0.3
 stepZ = 0.25
 startDwell = 0.5
