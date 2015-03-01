@@ -6,6 +6,7 @@ from py2gcode import cnc_dxf
 
 feedrate = 50.0
 fileName = 'right_in.dxf'
+#fileName = 'right_in_tmp.dxf'
 stockThickness = 0.5
 drillMargin = 0.125
 
@@ -23,6 +24,7 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 param = { 
         'fileName'    : fileName,
         'layers'      : ['8-32_INSERT_HOLE'],
+        #'layers'      : ['8-32_INSERT_HOLE_TMP'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : startZ,
         'stopZ'       : stopZ,

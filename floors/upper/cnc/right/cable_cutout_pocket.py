@@ -5,15 +5,16 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 feedrate = 100.0
-fileName = 'right_in.dxf'
-#fileName = 'right_in_tmp.dxf'
+#fileName = 'right_in.dxf'
+fileName = 'right_in_tmp.dxf'
 depth = 0.51
 startZ = 0.0
 safeZ = 0.5
 overlap = 0.5
-maxCutDepth = 0.15
-toolDiam = 3.0/16.0
+maxCutDepth = 0.1
+toolDiam = 0.5 
 direction = 'ccw'
+cornerCut = False
 startDwell = 1.0
 
 prog = gcode_cmd.GCodeProg()
@@ -23,8 +24,7 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = {
         'fileName'       : fileName,
-        'layers'         : ['1/4-20_INSERT_HOLE'],
-        #'layers'         : ['1/4-20_INSERT_HOLE_TMP'],
+        'layers'         : ['CABLE_CUTOUT'],
         'depth'          : depth,
         'startZ'         : startZ,
         'safeZ'          : safeZ,
@@ -32,10 +32,12 @@ param = {
         'overlapFinish'  : overlap,
         'maxCutDepth'    : maxCutDepth,
         'toolDiam'       : toolDiam,
+        'cornerCut'      : cornerCut,
         'direction'      : direction,
         'startDwell'     : startDwell,
         }
-pocket = cnc_dxf.DxfCircPocket(param)
+
+pocket = cnc_dxf.DxfRectPocketFromExtent(param)
 prog.add(pocket)
 
 prog.add(gcode_cmd.Space())
