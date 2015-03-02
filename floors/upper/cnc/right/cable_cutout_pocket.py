@@ -5,8 +5,7 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 feedrate = 100.0
-#fileName = 'right_in.dxf'
-fileName = 'right_in_tmp.dxf'
+fileName = 'right_in.dxf'
 depth = 0.51
 startZ = 0.0
 safeZ = 0.5
