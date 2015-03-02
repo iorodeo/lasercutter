@@ -1,0 +1,149 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+F 50.0
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['M6_THROUGH_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.625
+; startDwell: 0.5
+; fileName: stepper_psu_mount_plate_in_flipped.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 0.49212598425
+; centerY: 8.36614173228
+; stepZ: 0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X0.49212598 Y8.36614173
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X0.49212598425 Y8.36614173228 Z-0.625 R0.0 Q0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['M6_THROUGH_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.625
+; startDwell: 0.5
+; fileName: stepper_psu_mount_plate_in_flipped.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 0.49212598425
+; centerY: 1.27952755906
+; stepZ: 0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X0.49212598 Y1.27952756
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X0.49212598425 Y1.27952755906 Z-0.625 R0.0 Q0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['M6_THROUGH_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.625
+; startDwell: 0.5
+; fileName: stepper_psu_mount_plate_in_flipped.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 6.59448818898
+; centerY: 1.27952755906
+; stepZ: 0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X6.59448819 Y1.27952756
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X6.59448818898 Y1.27952755906 Z-0.625 R0.0 Q0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['M6_THROUGH_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.625
+; startDwell: 0.5
+; fileName: stepper_psu_mount_plate_in_flipped.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 6.59448818898
+; centerY: 8.36614173228
+; stepZ: 0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X6.59448819 Y8.36614173
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X6.59448818898 Y8.36614173228 Z-0.625 R0.0 Q0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+M2 (End program)
