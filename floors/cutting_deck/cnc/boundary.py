@@ -5,7 +5,7 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 feedrate = 150.0
-fileName = 'honeycomb_holder_in.dxf'
+fileName = 'honeycomb_holder_in_array.dxf'
 depth = 0.51
 startZ = 0.0
 safeZ = 0.5
