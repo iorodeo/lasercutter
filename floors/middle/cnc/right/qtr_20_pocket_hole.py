@@ -10,10 +10,9 @@ depth = 0.51
 startZ = 0.0
 safeZ = 0.5
 overlap = 0.5
-maxCutDepth = 0.1
-toolDiam = 0.5 
+maxCutDepth = 0.15
+toolDiam = 3.0/16.0
 direction = 'ccw'
-cornerCut = False
 startDwell = 1.0
 
 prog = gcode_cmd.GCodeProg()
@@ -23,7 +22,7 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = {
         'fileName'       : fileName,
-        'layers'         : ['CABLE_CUTOUT'],
+        'layers'         : ['1/4-20_INSERT_HOLE'],
         'depth'          : depth,
         'startZ'         : startZ,
         'safeZ'          : safeZ,
@@ -31,12 +30,10 @@ param = {
         'overlapFinish'  : overlap,
         'maxCutDepth'    : maxCutDepth,
         'toolDiam'       : toolDiam,
-        'cornerCut'      : cornerCut,
         'direction'      : direction,
         'startDwell'     : startDwell,
         }
-
-pocket = cnc_dxf.DxfRectPocketFromExtent(param)
+pocket = cnc_dxf.DxfCircPocket(param)
 prog.add(pocket)
 
 prog.add(gcode_cmd.Space())
