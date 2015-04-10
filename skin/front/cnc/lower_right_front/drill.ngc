@@ -1,0 +1,285 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+F 50.0
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_TAP_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: lower_right_front_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 2.33661417323
+; centerY: 6.70767716535
+; stepZ: 0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X2.33661417 Y6.70767717
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X2.33661417323 Y6.70767716535 Z-0.375 R0.0 Q0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_TAP_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: lower_right_front_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 2.33661417323
+; centerY: 5.45767716535
+; stepZ: 0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X2.33661417 Y5.45767717
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X2.33661417323 Y5.45767716535 Z-0.375 R0.0 Q0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_TAP_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: lower_right_front_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 7.99114173228
+; centerY: 10.0787401575
+; stepZ: 0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X7.99114173 Y10.07874016
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X7.99114173228 Y10.0787401575 Z-0.375 R0.0 Q0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_TAP_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: lower_right_front_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 9.24114173228
+; centerY: 10.0787401575
+; stepZ: 0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X9.24114173 Y10.07874016
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X9.24114173228 Y10.0787401575 Z-0.375 R0.0 Q0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_TAP_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: lower_right_front_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 24.7234251969
+; centerY: 10.0787401575
+; stepZ: 0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X24.72342520 Y10.07874016
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X24.7234251969 Y10.0787401575 Z-0.375 R0.0 Q0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_TAP_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: lower_right_front_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 25.9734251969
+; centerY: 10.0787401575
+; stepZ: 0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X25.97342520 Y10.07874016
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X25.9734251969 Y10.0787401575 Z-0.375 R0.0 Q0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_TAP_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: lower_right_front_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 32.2185069291
+; centerY: 6.70767716535
+; stepZ: 0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X32.21850693 Y6.70767717
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X32.2185069291 Y6.70767716535 Z-0.375 R0.0 Q0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['6-32_TAP_HOLE']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.375
+; startDwell: 0.5
+; fileName: lower_right_front_in.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 32.2185069291
+; centerY: 5.45767716535
+; stepZ: 0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X32.21850693 Y5.45767717
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X32.2185069291 Y5.45767716535 Z-0.375 R0.0 Q0.04
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+M2 (End program)
