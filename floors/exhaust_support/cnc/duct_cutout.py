@@ -35,8 +35,10 @@ param = {
         'maxCutDepth'   : maxCutDepth,
         'startDwell'    : startDwell,
         }
-boundary = cnc_dxf.DxfCircPocket(param)
-prog.add(boundary)
+#cut = cnc_dxf.DxfCircPocket(param)
+param['cutterComp'] = 'inside'
+cut = cnc_dxf.DxfCircBoundary(param)
+prog.add(cut)
 
 
 prog.add(gcode_cmd.Space())
