@@ -1231,7 +1231,7 @@ AcDbLayerTableRecord
 2
 duct_hole
 70
-1
+0
 62
 3
 6
@@ -1277,7 +1277,7 @@ AcDbLayerTableRecord
 2
 inner_boundary
 70
-1
+0
 62
 3
 6
@@ -1367,7 +1367,7 @@ AcDbLayerTableRecord
 2
 ring_pocket
 70
-1
+0
 62
 2
 6
