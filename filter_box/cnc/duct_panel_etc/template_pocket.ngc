@@ -1,0 +1,159 @@
+
+; Generic Start
+G40 (Cancel cutter radius compensation)
+G49 (Cancel tool length offset)
+G80 (Cancel canned cycle)
+G54 (Select coordinate system 1)
+G90 (Set absolute distance mode)
+G20 (Set units to inches)
+G61 (Exact path mode)
+
+F 100.0
+
+; Begin RectPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.15
+; fileName: duct_panel_etc.dxf
+; ptEquivTol: 1e-05
+; height: 12.135
+; layers: ['pocket']
+; overlapFinish: 0.5
+; depth: 0.125
+; overlap: 0.5
+; cornerCut: True
+; width: 0.48
+; safeZ: 0.5
+; dxfTypes: ['LINE', 'POINT']
+; centerX: 26.5
+; centerY: 7.0
+; toolDiam: 0.1875
+
+; RectPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; RectPocketXY: rapid move to start x,y
+G0 X26.35375000 Y12.97375000
+
+; RectPocketXY: dwell
+G4 P1.0
+
+; RectPocketXY: move to start z
+G1 Z0.00000000
+
+; RectPocketXY: pass 1 lead-in
+G1 X26.35375000 Y12.97375000 Z0.00000000
+G1 X26.35375000 Y1.02625000 Z-0.06100643
+G1 X26.64625000 Y1.02625000 Z-0.06250000
+G1 X26.64625000 Y12.97375000 Z-0.12350643
+G1 X26.35375000 Y12.97375000 Z-0.12500000
+
+; RectPocketXY: pass 1 filled rectangle
+G1 X26.35375000 Y12.97375000
+G1 X26.35375000 Y1.02625000
+G1 X26.32629126 Y0.99879126
+G1 X26.35375000 Y1.02625000
+G1 X26.64625000 Y1.02625000
+G1 X26.67370874 Y0.99879126
+G1 X26.64625000 Y1.02625000
+G1 X26.64625000 Y12.97375000
+G1 X26.67370874 Y13.00120874
+G1 X26.64625000 Y12.97375000
+G1 X26.35375000 Y12.97375000
+G1 X26.32629126 Y13.00120874
+G1 X26.35375000 Y12.97375000
+G1 X26.44750000 Y12.88000000
+G1 X26.44750000 Y1.12000000
+G1 X26.55250000 Y1.12000000
+G1 X26.55250000 Y12.88000000
+G1 X26.44750000 Y12.88000000
+G1 X26.50000000 Y12.78625000
+G1 X26.50000000 Y1.21375000
+G1 X26.50000000 Y1.21375000
+G1 X26.50000000 Y12.78625000
+G1 X26.50000000 Y12.78625000
+
+; RectPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End RectPocketXY
+; ------------------------------------------------------------
+
+
+; Begin RectPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; direction: ccw
+; components: True
+; startDwell: 1.0
+; maxCutDepth: 0.15
+; fileName: duct_panel_etc.dxf
+; ptEquivTol: 1e-05
+; height: 13.075
+; layers: ['pocket']
+; overlapFinish: 0.5
+; depth: 0.125
+; overlap: 0.5
+; cornerCut: True
+; width: 0.48
+; safeZ: 0.5
+; dxfTypes: ['LINE', 'POINT']
+; centerX: 29.5
+; centerY: 7.0
+; toolDiam: 0.1875
+
+; RectPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; RectPocketXY: rapid move to start x,y
+G0 X29.35375000 Y13.44375000
+
+; RectPocketXY: dwell
+G4 P1.0
+
+; RectPocketXY: move to start z
+G1 Z0.00000000
+
+; RectPocketXY: pass 1 lead-in
+G1 X29.35375000 Y13.44375000 Z0.00000000
+G1 X29.35375000 Y0.55625000 Z-0.06111296
+G1 X29.64625000 Y0.55625000 Z-0.06250000
+G1 X29.64625000 Y13.44375000 Z-0.12361296
+G1 X29.35375000 Y13.44375000 Z-0.12500000
+
+; RectPocketXY: pass 1 filled rectangle
+G1 X29.35375000 Y13.44375000
+G1 X29.35375000 Y0.55625000
+G1 X29.32629126 Y0.52879126
+G1 X29.35375000 Y0.55625000
+G1 X29.64625000 Y0.55625000
+G1 X29.67370874 Y0.52879126
+G1 X29.64625000 Y0.55625000
+G1 X29.64625000 Y13.44375000
+G1 X29.67370874 Y13.47120874
+G1 X29.64625000 Y13.44375000
+G1 X29.35375000 Y13.44375000
+G1 X29.32629126 Y13.47120874
+G1 X29.35375000 Y13.44375000
+G1 X29.44750000 Y13.35000000
+G1 X29.44750000 Y0.65000000
+G1 X29.55250000 Y0.65000000
+G1 X29.55250000 Y13.35000000
+G1 X29.44750000 Y13.35000000
+G1 X29.50000000 Y13.25625000
+G1 X29.50000000 Y0.74375000
+G1 X29.50000000 Y0.74375000
+G1 X29.50000000 Y13.25625000
+G1 X29.50000000 Y13.25625000
+
+; RectPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End RectPocketXY
+; ------------------------------------------------------------
+
+
+M2 (End program)
