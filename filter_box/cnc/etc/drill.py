@@ -5,8 +5,8 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 feedrate = 50.0
-fileName = 'duct_panel_etc.dxf'
-stockThickness = 0.5
+fileName = 'duct_ring_etc.dxf'
+stockThickness = 0.51
 drillMargin = 0.125
 
 startZ = 0.0
@@ -22,7 +22,7 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = { 
         'fileName'    : fileName,
-        'layers'      : ['8-32_through_hole','fixture_holes'],
+        'layers'      : ['8-32_through_hole','fixture_hole'],
         'dxfTypes'    : ['CIRCLE'],
         'startZ'      : startZ,
         'stopZ'       : stopZ,

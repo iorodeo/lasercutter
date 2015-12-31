@@ -5,7 +5,7 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 feedrate = 100.0
-fileName = 'duct_panel_etc.dxf'
+fileName = 'duct_ring_etc.dxf'
 components = True
 depth = 0.125
 startZ = 0.0

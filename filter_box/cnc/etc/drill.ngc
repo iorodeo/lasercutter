@@ -12,15 +12,15 @@ F 50.0
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 23.5
+; centerX: 10.5
 ; centerY: 6.0
 ; stepZ: 0.25
 
@@ -28,14 +28,14 @@ F 50.0
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X23.50000000 Y6.00000000
+G0 X10.50000000 Y6.00000000
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X23.5 Y6.0 Z-0.625 R0.0 Q0.25
+G83 X10.5 Y6.0 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -46,15 +46,15 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 22.1819805153
+; centerX: 9.1819805153
 ; centerY: 9.18198051534
 ; stepZ: 0.25
 
@@ -62,14 +62,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X22.18198052 Y9.18198052
+G0 X9.18198052 Y9.18198052
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X22.1819805153 Y9.18198051534 Z-0.625 R0.0 Q0.25
+G83 X9.1819805153 Y9.18198051534 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -80,15 +80,15 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 19.0
+; centerX: 6.0
 ; centerY: 10.5
 ; stepZ: 0.25
 
@@ -96,14 +96,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X19.00000000 Y10.50000000
+G0 X6.00000000 Y10.50000000
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X19.0 Y10.5 Z-0.625 R0.0 Q0.25
+G83 X6.0 Y10.5 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -114,15 +114,15 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 15.8180194847
+; centerX: 2.8180194847
 ; centerY: 9.18198051534
 ; stepZ: 0.25
 
@@ -130,14 +130,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X15.81801948 Y9.18198052
+G0 X2.81801948 Y9.18198052
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X15.8180194847 Y9.18198051534 Z-0.625 R0.0 Q0.25
+G83 X2.8180194847 Y9.18198051534 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -148,15 +148,15 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 14.5
+; centerX: 1.5
 ; centerY: 6.0
 ; stepZ: 0.25
 
@@ -164,14 +164,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X14.50000000 Y6.00000000
+G0 X1.50000000 Y6.00000000
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X14.5 Y6.0 Z-0.625 R0.0 Q0.25
+G83 X1.5 Y6.0 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -182,15 +182,15 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 15.8180194847
+; centerX: 2.8180194847
 ; centerY: 2.81801948466
 ; stepZ: 0.25
 
@@ -198,14 +198,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X15.81801948 Y2.81801948
+G0 X2.81801948 Y2.81801948
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X15.8180194847 Y2.81801948466 Z-0.625 R0.0 Q0.25
+G83 X2.8180194847 Y2.81801948466 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -216,15 +216,15 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 19.0
+; centerX: 6.0
 ; centerY: 1.5
 ; stepZ: 0.25
 
@@ -232,14 +232,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X19.00000000 Y1.50000000
+G0 X6.00000000 Y1.50000000
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X19.0 Y1.5 Z-0.625 R0.0 Q0.25
+G83 X6.0 Y1.5 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -250,15 +250,15 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 22.1819805153
+; centerX: 9.1819805153
 ; centerY: 2.81801948466
 ; stepZ: 0.25
 
@@ -266,14 +266,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X22.18198052 Y2.81801948
+G0 X9.18198052 Y2.81801948
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X22.1819805153 Y2.81801948466 Z-0.625 R0.0 Q0.25
+G83 X9.1819805153 Y2.81801948466 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -284,15 +284,15 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 5.0
+; centerX: 4.0
 ; centerY: 5.0
 ; stepZ: 0.25
 
@@ -300,14 +300,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X5.00000000 Y5.00000000
+G0 X4.00000000 Y5.00000000
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X5.0 Y5.0 Z-0.625 R0.0 Q0.25
+G83 X4.0 Y5.0 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000
@@ -318,15 +318,83 @@ G0 Z0.30000000
 
 ; Begin PeckDrill
 ; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
+; layers: ['8-32_through_hole', 'fixture_hole']
 ; startZ: 0.0
 ; startCond: minX
-; stopZ: -0.625
+; stopZ: -0.635
 ; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
+; fileName: duct_ring_etc.dxf
 ; safeZ: 0.3
 ; dxfTypes: ['CIRCLE']
-; centerX: 7.0
+; centerX: 4.0
+; centerY: 7.0
+; stepZ: 0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X4.00000000 Y7.00000000
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X4.0 Y7.0 Z-0.635 R0.0 Q0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['8-32_through_hole', 'fixture_hole']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.635
+; startDwell: 0.5
+; fileName: duct_ring_etc.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 8.0
+; centerY: 7.0
+; stepZ: 0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; PeckDrill: rapid move to drill x,y
+G0 X8.00000000 Y7.00000000
+
+; PeckDrill: dwell
+G4 P0.5
+
+; PeckDrill: move to start z
+G1 Z0.00000000
+G83 X8.0 Y7.0 Z-0.635 R0.0 Q0.25
+
+; PeckDrill: rapid move to safe z
+G0 Z0.30000000
+
+; End PeckDrill
+; ------------------------------------------------------------
+
+
+; Begin PeckDrill
+; ------------------------------------------------------------
+; layers: ['8-32_through_hole', 'fixture_hole']
+; startZ: 0.0
+; startCond: minX
+; stopZ: -0.635
+; startDwell: 0.5
+; fileName: duct_ring_etc.dxf
+; safeZ: 0.3
+; dxfTypes: ['CIRCLE']
+; centerX: 8.0
 ; centerY: 5.0
 ; stepZ: 0.25
 
@@ -334,218 +402,14 @@ G0 Z0.30000000
 G0 Z0.30000000
 
 ; PeckDrill: rapid move to drill x,y
-G0 X7.00000000 Y5.00000000
+G0 X8.00000000 Y5.00000000
 
 ; PeckDrill: dwell
 G4 P0.5
 
 ; PeckDrill: move to start z
 G1 Z0.00000000
-G83 X7.0 Y5.0 Z-0.625 R0.0 Q0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.625
-; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 19.0
-; centerY: 8.0
-; stepZ: 0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X19.00000000 Y8.00000000
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X19.0 Y8.0 Z-0.625 R0.0 Q0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.625
-; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 17.0
-; centerY: 6.0
-; stepZ: 0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X17.00000000 Y6.00000000
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X17.0 Y6.0 Z-0.625 R0.0 Q0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.625
-; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 19.0
-; centerY: 4.0
-; stepZ: 0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X19.00000000 Y4.00000000
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X19.0 Y4.0 Z-0.625 R0.0 Q0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.625
-; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 21.0
-; centerY: 6.0
-; stepZ: 0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X21.00000000 Y6.00000000
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X21.0 Y6.0 Z-0.625 R0.0 Q0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.625
-; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 5.0
-; centerY: 7.0
-; stepZ: 0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X5.00000000 Y7.00000000
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X5.0 Y7.0 Z-0.625 R0.0 Q0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; End PeckDrill
-; ------------------------------------------------------------
-
-
-; Begin PeckDrill
-; ------------------------------------------------------------
-; layers: ['8-32_through_hole', 'fixture_holes']
-; startZ: 0.0
-; startCond: minX
-; stopZ: -0.625
-; startDwell: 0.5
-; fileName: duct_panel_etc.dxf
-; safeZ: 0.3
-; dxfTypes: ['CIRCLE']
-; centerX: 7.0
-; centerY: 7.0
-; stepZ: 0.25
-
-; PeckDrill: rapid move to safe z
-G0 Z0.30000000
-
-; PeckDrill: rapid move to drill x,y
-G0 X7.00000000 Y7.00000000
-
-; PeckDrill: dwell
-G4 P0.5
-
-; PeckDrill: move to start z
-G1 Z0.00000000
-G83 X7.0 Y7.0 Z-0.625 R0.0 Q0.25
+G83 X8.0 Y5.0 Z-0.635 R0.0 Q0.25
 
 ; PeckDrill: rapid move to safe z
 G0 Z0.30000000

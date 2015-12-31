@@ -5,8 +5,8 @@ from py2gcode import gcode_cmd
 from py2gcode import cnc_dxf
 
 feedrate = 100.0
-fileName = 'duct_panel_etc.dxf'
-depth = 0.51
+fileName = 'duct_ring_etc.dxf'
+depth = 0.54
 startZ = 0.0
 safeZ = 0.5
 overlap = 0.5
@@ -22,7 +22,7 @@ prog.add(gcode_cmd.FeedRate(feedrate))
 
 param = {
         'fileName'       : fileName,
-        'layers'         : ['8-32_insert_hole', 'drill_hole'],
+        'layers'         : ['drill_hole'],
         'depth'          : depth,
         'startZ'         : startZ,
         'safeZ'          : safeZ,
