@@ -6,7 +6,8 @@ from py2gcode import cnc_dxf
 
 feedrate = 100.0
 fileName = 'duct_ring_etc.dxf'
-depth = 0.54
+#depth = 0.54
+depth = 0.51
 startZ = 0.0
 safeZ = 0.5
 overlap = 0.5

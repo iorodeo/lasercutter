@@ -17,7 +17,7 @@ F 100.0
 ; direction: ccw
 ; overlapFinish: 0.5
 ; startDwell: 1.0
-; depth: 0.54
+; depth: 0.51
 ; maxCutDepth: 0.15
 ; fileName: duct_ring_etc.dxf
 ; safeZ: 0.5
@@ -73,7 +73,7 @@ G1 X13.50000000 Y10.26625000
 ; CircPocketXY: pass 4 lead-in
 G1 X13.53125000 Y10.26625000
 G1 X13.53125000 Y10.26625000 Z-0.45000000
-G3 X13.53125000 Y10.26625000 Z-0.54000000 I-0.03125000 J0.00000000
+G3 X13.53125000 Y10.26625000 Z-0.51000000 I-0.03125000 J0.00000000
 
 ; CircPocketXY: pass 4 filled circle
 G1 X13.53125000 Y10.26625000
@@ -94,7 +94,7 @@ G0 Z0.50000000
 ; direction: ccw
 ; overlapFinish: 0.5
 ; startDwell: 1.0
-; depth: 0.54
+; depth: 0.51
 ; maxCutDepth: 0.15
 ; fileName: duct_ring_etc.dxf
 ; safeZ: 0.5
@@ -150,7 +150,7 @@ G1 X13.50000000 Y3.73375000
 ; CircPocketXY: pass 4 lead-in
 G1 X13.53125000 Y3.73375000
 G1 X13.53125000 Y3.73375000 Z-0.45000000
-G3 X13.53125000 Y3.73375000 Z-0.54000000 I-0.03125000 J0.00000000
+G3 X13.53125000 Y3.73375000 Z-0.51000000 I-0.03125000 J0.00000000
 
 ; CircPocketXY: pass 4 filled circle
 G1 X13.53125000 Y3.73375000
@@ -171,7 +171,7 @@ G0 Z0.50000000
 ; direction: ccw
 ; overlapFinish: 0.5
 ; startDwell: 1.0
-; depth: 0.54
+; depth: 0.51
 ; maxCutDepth: 0.15
 ; fileName: duct_ring_etc.dxf
 ; safeZ: 0.5
@@ -227,7 +227,7 @@ G1 X16.50000000 Y10.26625000
 ; CircPocketXY: pass 4 lead-in
 G1 X16.53125000 Y10.26625000
 G1 X16.53125000 Y10.26625000 Z-0.45000000
-G3 X16.53125000 Y10.26625000 Z-0.54000000 I-0.03125000 J0.00000000
+G3 X16.53125000 Y10.26625000 Z-0.51000000 I-0.03125000 J0.00000000
 
 ; CircPocketXY: pass 4 filled circle
 G1 X16.53125000 Y10.26625000
@@ -248,7 +248,7 @@ G0 Z0.50000000
 ; direction: ccw
 ; overlapFinish: 0.5
 ; startDwell: 1.0
-; depth: 0.54
+; depth: 0.51
 ; maxCutDepth: 0.15
 ; fileName: duct_ring_etc.dxf
 ; safeZ: 0.5
@@ -304,12 +304,166 @@ G1 X16.50000000 Y3.73375000
 ; CircPocketXY: pass 4 lead-in
 G1 X16.53125000 Y3.73375000
 G1 X16.53125000 Y3.73375000 Z-0.45000000
-G3 X16.53125000 Y3.73375000 Z-0.54000000 I-0.03125000 J0.00000000
+G3 X16.53125000 Y3.73375000 Z-0.51000000 I-0.03125000 J0.00000000
 
 ; CircPocketXY: pass 4 filled circle
 G1 X16.53125000 Y3.73375000
 G3 X16.53125000 Y3.73375000 I-0.03125000 J0.00000000
 G1 X16.50000000 Y3.73375000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; layers: ['drill_hole']
+; direction: ccw
+; overlapFinish: 0.5
+; startDwell: 1.0
+; depth: 0.51
+; maxCutDepth: 0.15
+; fileName: duct_ring_etc.dxf
+; safeZ: 0.5
+; radius: 0.125
+; dxfTypes: ['CIRCLE']
+; centerX: 19.5
+; centerY: 3.96875
+; toolDiam: 0.1875
+; overlap: 0.5
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X19.53125000 Y3.96875000
+
+; CircPocketXY: dwell
+G4 P1.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X19.53125000 Y3.96875000
+G1 X19.53125000 Y3.96875000 Z0.00000000
+G3 X19.53125000 Y3.96875000 Z-0.15000000 I-0.03125000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X19.53125000 Y3.96875000
+G3 X19.53125000 Y3.96875000 I-0.03125000 J0.00000000
+G1 X19.50000000 Y3.96875000
+
+; CircPocketXY: pass 2 lead-in
+G1 X19.53125000 Y3.96875000
+G1 X19.53125000 Y3.96875000 Z-0.15000000
+G3 X19.53125000 Y3.96875000 Z-0.30000000 I-0.03125000 J0.00000000
+
+; CircPocketXY: pass 2 filled circle
+G1 X19.53125000 Y3.96875000
+G3 X19.53125000 Y3.96875000 I-0.03125000 J0.00000000
+G1 X19.50000000 Y3.96875000
+
+; CircPocketXY: pass 3 lead-in
+G1 X19.53125000 Y3.96875000
+G1 X19.53125000 Y3.96875000 Z-0.30000000
+G3 X19.53125000 Y3.96875000 Z-0.45000000 I-0.03125000 J0.00000000
+
+; CircPocketXY: pass 3 filled circle
+G1 X19.53125000 Y3.96875000
+G3 X19.53125000 Y3.96875000 I-0.03125000 J0.00000000
+G1 X19.50000000 Y3.96875000
+
+; CircPocketXY: pass 4 lead-in
+G1 X19.53125000 Y3.96875000
+G1 X19.53125000 Y3.96875000 Z-0.45000000
+G3 X19.53125000 Y3.96875000 Z-0.51000000 I-0.03125000 J0.00000000
+
+; CircPocketXY: pass 4 filled circle
+G1 X19.53125000 Y3.96875000
+G3 X19.53125000 Y3.96875000 I-0.03125000 J0.00000000
+G1 X19.50000000 Y3.96875000
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; End CircPocketXY
+; ------------------------------------------------------------
+
+
+; Begin CircPocketXY
+; ------------------------------------------------------------
+; startZ: 0.0
+; layers: ['drill_hole']
+; direction: ccw
+; overlapFinish: 0.5
+; startDwell: 1.0
+; depth: 0.51
+; maxCutDepth: 0.15
+; fileName: duct_ring_etc.dxf
+; safeZ: 0.5
+; radius: 0.125
+; dxfTypes: ['CIRCLE']
+; centerX: 19.5
+; centerY: 10.03125
+; toolDiam: 0.1875
+; overlap: 0.5
+
+; CircPocketXY: rapid move to safe z
+G0 Z0.50000000
+
+; CircPocketXY: rapid move to start x,y
+G0 X19.53125000 Y10.03125000
+
+; CircPocketXY: dwell
+G4 P1.0
+
+; CircPocketXY: move to start z
+G1 Z0.00000000
+
+; CircPocketXY: pass 1 lead-in
+G1 X19.53125000 Y10.03125000
+G1 X19.53125000 Y10.03125000 Z0.00000000
+G3 X19.53125000 Y10.03125000 Z-0.15000000 I-0.03125000 J0.00000000
+
+; CircPocketXY: pass 1 filled circle
+G1 X19.53125000 Y10.03125000
+G3 X19.53125000 Y10.03125000 I-0.03125000 J0.00000000
+G1 X19.50000000 Y10.03125000
+
+; CircPocketXY: pass 2 lead-in
+G1 X19.53125000 Y10.03125000
+G1 X19.53125000 Y10.03125000 Z-0.15000000
+G3 X19.53125000 Y10.03125000 Z-0.30000000 I-0.03125000 J0.00000000
+
+; CircPocketXY: pass 2 filled circle
+G1 X19.53125000 Y10.03125000
+G3 X19.53125000 Y10.03125000 I-0.03125000 J0.00000000
+G1 X19.50000000 Y10.03125000
+
+; CircPocketXY: pass 3 lead-in
+G1 X19.53125000 Y10.03125000
+G1 X19.53125000 Y10.03125000 Z-0.30000000
+G3 X19.53125000 Y10.03125000 Z-0.45000000 I-0.03125000 J0.00000000
+
+; CircPocketXY: pass 3 filled circle
+G1 X19.53125000 Y10.03125000
+G3 X19.53125000 Y10.03125000 I-0.03125000 J0.00000000
+G1 X19.50000000 Y10.03125000
+
+; CircPocketXY: pass 4 lead-in
+G1 X19.53125000 Y10.03125000
+G1 X19.53125000 Y10.03125000 Z-0.45000000
+G3 X19.53125000 Y10.03125000 Z-0.51000000 I-0.03125000 J0.00000000
+
+; CircPocketXY: pass 4 filled circle
+G1 X19.53125000 Y10.03125000
+G3 X19.53125000 Y10.03125000 I-0.03125000 J0.00000000
+G1 X19.50000000 Y10.03125000
 
 ; CircPocketXY: rapid move to safe z
 G0 Z0.50000000
